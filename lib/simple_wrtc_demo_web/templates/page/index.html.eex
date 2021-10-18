@@ -1,0 +1,25 @@
+<h2>1. Start your Webcam</h2>
+<div class="videos">
+  <span>
+    <h3>Local Stream</h3>
+    <video id="webcamVideo" autoplay playsinline></video>
+  </span>
+  <span>
+    <h3>Remote Stream</h3>
+    <video id="remoteVideo" autoplay playsinline></video>
+  </span>
+</div>
+
+<button class="button-50" role="button" id="webcamButton">Start Webcam</button>
+<h2>2. Create a New Call</h2>
+<button class="button-50" role="button" id="callButton" disabled>Create Call (Activate)</button>
+
+<h2>3. Join a Call</h2>
+<p>Answer The Call From a Different Browser Window or Device</p>
+
+<input id="callInput" />
+<button class="button-50" class="button" id="answerButton" disabled>Answer</button>
+
+<h2>4. Hangup</h2>
+
+<button class="button-50" role="button" id="hangupButton" disabled>Hangup</button>
